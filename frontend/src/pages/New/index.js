@@ -17,8 +17,6 @@ export default function New({history}) {
         [thumbnail]
     );
 
-    // Lembre-se! Agora estou enviando a foto junto com os dados.
-    // Não pode ser JSON, tem que ser multipart format
     async function handleSubmit(event) {
         event.preventDefault();
 
